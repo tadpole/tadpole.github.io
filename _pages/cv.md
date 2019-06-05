@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Tu Ke(CV)"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,49 +11,27 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-
-Work experience
-======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* B.E. in Computer Science and Technology, Tsinghua University, Beijing, China, 2015
+* Ph. D in  Department of Computer Science and Technology, Tsinghua University, Beijing, China, 2020 (expected)
+  - Advisor: Professor Wenwu Zhu
 
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+Work experience
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Aug 2014 - Feb 2015: Programmer
+  * Yunshitu information technology Co., Ltd.
+  * Duties included: Develop deep learning API, recognize the wine brands from the pictures of winebottle.
+* Jul 2017 - Sep 2017: Machine Learning Intern
+  * Tencent
+  * Duties included: Analyze social network data and node importance, learning node representations that support node importance measurement task.
+
+* Jul 2018 - Sep 2018: Machine Learning Intern
+  * Baidu
+  * Duties included: Research on user profile. Infer the profession based on search record and location information
+
+
