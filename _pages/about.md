@@ -12,7 +12,7 @@ This is the homepage of KE TU(涂珂), a fourth-year Ph.D candidate in the Depar
 
 Biography
 ======
-Ke Tu received his B.S. from the Department of Computer Science and Technology, Tsinghua University in 2015.
+Ke Tu received his B.E. from the Department of Computer Science and Technology, Tsinghua University in 2015.
 He is currently pursuing the Ph.D. Degree in the Department of Computer Science and Technology in Tsinghua University.
 His research interests focus on machine learning on graphs, especially network representation learning and automatic machine learning on graphs.
 He conducts research under the supervision of Professor Wenwu Zhu and Professor Peng Cui.
