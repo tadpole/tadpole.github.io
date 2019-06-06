@@ -28,10 +28,10 @@ Work experience
   * Duties included: Develop deep learning API, recognize the wine brands from the pictures of winebottle.
 * Jul 2017 - Sep 2017: Machine Learning Intern
   * Tencent
-  * Duties included: Analyze social network data and node importance, learning node representations that support node importance measurement task.
+  * Duties included: Analyze social network data and node importance, learn node representations that support node importance measurement task.
 
 * Jul 2018 - Sep 2018: Machine Learning Intern
   * Baidu
-  * Duties included: Research on user profile. Infer the profession based on search record and location information
+  * Duties included: Research on user profile, especially inferring the profession based on search record and location information.
 
 
