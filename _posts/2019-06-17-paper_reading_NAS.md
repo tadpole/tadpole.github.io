@@ -40,13 +40,7 @@ Author: Barret Zoph, Quoc V. Le (Google Brain)
 
 [Policy Gradient Theorem(episodic)](https://lilianweng.github.io/lil-log/2018/04/08/policy-gradient-algorithms.html#what-is-policy-gradient):
 
-$$
-    \begin{aligned}
-        \nabla J(\boldsymbol{\theta}) & \propto \sum_{s} \mu(s) \sum_{a} q_{\pi}(s, a) \nabla \pi(a | s, \boldsymbol{\theta}) \\ 
-        &= \mathbb{E}_{\pi}\left[\sum_{a} q_{\pi}\left(S_{t}, a\right) \nabla \pi\left(a | S_{t}, \boldsymbol{\theta}\right)\right] \\
-        &= \mathbb{E}_{\pi}\left[q_{\pi}\left(S_{t}, A_{t}\right) \nabla ln~\pi\left(A_{t} | S_{t}, \boldsymbol{\theta}\right)\right]
-    \end{aligned}
-$$
+$$\begin{aligned} \nabla J(\boldsymbol{\theta}) & \propto \sum_{s} \mu(s) \sum_{a} q_{\pi}(s, a) \nabla \pi(a | s, \boldsymbol{\theta}) \\ &=\mathbb{E}_{\pi}\left[\sum_{a} q_{\pi}\left(S_{t}, a\right) \nabla \pi\left(a | S_{t}, \boldsymbol{\theta}\right)\right] \\ &=\mathbb{E}_{\pi}\left[q_{\pi}\left(S_{t}, A_{t}\right) \nabla \ln \pi\left(A_{t} | S_{t}, \boldsymbol{\theta}\right)\right] \end{aligned}$$
 
 本文用到的是REINFORCE方法(也就是Monte-Carlo policy gradient), 利用上面的定理：
 
