@@ -157,9 +157,7 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-# For fixing multiple equation bug
-compress_html:
-  blanklines:       true
+
 
 # Markdown Processing
 kramdown:
@@ -305,7 +303,9 @@ tag_archive:
 
 # HTML Compression
 # - http://jch.penibelst.de/
+
 compress_html:
+  blanklines: true # For fixing multiple equation bug
   clippings: all
   ignore:
     envs: development
