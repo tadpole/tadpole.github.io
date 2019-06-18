@@ -157,6 +157,9 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
+# For fixing multiple equation bug
+compress_html:
+  blanklines:       true
 
 # Markdown Processing
 kramdown:
